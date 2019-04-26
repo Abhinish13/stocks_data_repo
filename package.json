@@ -1,0 +1,26 @@
+{
+  "name": "stocks_data_repo",
+  "version": "1.0.0",
+  "description": "This is Stocks Data Provider application Developed by Abhinish Raj",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhinish13/stocks_data_repo.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "Abhinish Raj <abhinish.gecr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhinish13/stocks_data_repo/issues"
+  },
+  "homepage": "https://github.com/Abhinish13/stocks_data_repo#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
