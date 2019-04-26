@@ -2,5 +2,18 @@
 // Authon : Abhinish Raj <abhinish.gecr@gmail.com
 //
 
-let express = require(express);
-let fs = require(fs);
+const app = require('express')();
+const fs = require('fs');
+let bodyParser = require('bodyParser');
+app.use(bodyParser.json());
+
+app.get('/', (req, res) => {
+
+    get_attributes();
+
+    res.status(200)
+        .send('helloworld');
+
+});
+
+app.listen(8000);
